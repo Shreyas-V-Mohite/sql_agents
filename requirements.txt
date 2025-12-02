@@ -1,0 +1,25 @@
+# SQL Agent Dependencies
+
+# LangGraph (no LangChain LLM wrappers needed - using native Qwen)
+langgraph>=0.2.0
+langchain-chroma>=0.1.0
+langchain-core>=0.3.0
+
+# Vector Store
+chromadb>=0.5.0
+
+# Data Processing
+pandas>=2.0.0
+pydantic>=2.0.0
+
+# HTTP
+requests>=2.31.0
+
+# Qwen Model (Local Inference)
+torch>=2.0.0
+transformers>=4.37.0
+accelerate>=0.25.0
+peft>=0.10.0  # For LoRA adapter loading
+
+# Optional: For faster inference
+# bitsandbytes>=0.41.0  # 4-bit quantization

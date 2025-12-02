@@ -1,0 +1,7 @@
+{
+  "dependencies": ["langchain", "langgraph", "langchain-openai", "langchain-chroma", "chromadb", "pandas", "pydantic", "./sql_agent"],
+  "graphs": {
+    "sql_agent": "./sql_agent/graph.py:create_sql_agent"
+  },
+  "env": "./.env"
+}
